@@ -4,9 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
+
 public class TestJavaSelenium {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		WebDriver driver;
@@ -23,6 +24,9 @@ public class TestJavaSelenium {
 		
 		driver.close();
 		
+		
+		
 	}
 
 }
+
